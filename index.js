@@ -20,9 +20,9 @@ document.addEventListener("DOMContentLoaded", function() {
           randomDigimonIds.forEach(async x => {
             await getRandomDigimon(x).then(digimon => {
                 const nombre = digimon.name;
-                const level = digimon.levels.length>=1? digimon.levels[0].level:"";
-                const type = digimon.types.length>=1? digimon.types[0].type:"";
-                const attribute = digimon.attributes.length>=1? digimon.attributes[0].attribute:"";
+                const level = digimon.levels.length>=1? digimon.levels[0].level: "Unknown";
+                const type = digimon.types.length>=1? digimon.types[0].type: "Unknown";
+                const attribute = digimon.attributes.length>=1? digimon.attributes[0].attribute: "Unknown";
                 const skills = digimon.skills || [];
                 
                 let skillsList = "";
