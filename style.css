@@ -1,0 +1,53 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    color: black;
+    text-align: center;
+    padding: 20px;
+}
+
+h2 {
+    color: black;
+    text-align: center;
+    padding: 20px;
+    text-decoration: underline;
+    text-decoration-skip-ink: auto;
+}
+
+#skills {
+    color: black;
+    text-align: center;
+}
+
+#skill {
+    text-align: center;
+    text-decoration: underline;
+}
+
+#digimonInfo {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+#digimonInfo div {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px;
+    width: 200px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+#digimonInfo img {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+}
